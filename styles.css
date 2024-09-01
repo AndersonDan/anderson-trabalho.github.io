@@ -1,0 +1,150 @@
+
+*{box-sizing: border-box;}
+body{
+    margin: 0px; /*TIREI AS MARGENS*/
+    background-image: url(imagens/fundo.jpg);
+    background-size: cover; /*PARA APARECER A IMAGEM CERTA*/
+    background-repeat: no-repeat; /*PARA NÃO REPETIR A IMAGEM*/
+    
+}
+.div1 { /*DIV USADA PARA AJUSTAR MINHA HEADER*/
+    display: grid;
+    width: 100%; /*Mostra a largura da div*/
+    padding: 2%; /*O espaço que ela ocupa*/
+
+    justify-content: center;
+    background-color: rgb(186, 187, 187);
+     
+}
+.div2{ /*DIV 2 FOI USADA PARA AJUSTAR O TÍTULO*/
+    background-color: rgb(186, 187, 187);
+    width: 10%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px; /*Para deixar a borada arredondada*/
+}
+.ul1 {
+    margin: 0 auto; /*margem*/
+    list-style-type: none; /*Tira a marcação da lista*/
+}
+li{float: left; margin: 0 auto;} /*PARA DEIXAR A LISTA NA HORIZONTAL*/
+.li1{
+    display: inline;
+    padding: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.li1:hover{ border: solid #000403 1px;}
+
+
+/* .li1 a{
+    text-decoration: none;
+    list-style-type: none;
+} */
+.titulo{
+    margin-top: 0;
+    text-align: center;
+}
+
+
+h2{text-align: center;
+margin-top: 40px;
+margin-bottom: 40px}
+p{text-align: center;
+    font-size: 1.4rem;
+    font: bolder;
+    padding-bottom: 20px;}
+    
+.texto{
+    padding-left: 1.7%;
+     padding-right: 1.7%;
+}
+    
+   
+               /* ***********Parte da formação acadêmica************ */
+
+
+
+
+
+.titulof{ /*Ajustando a posição do título*/
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.div2f{ /*Ajustando o fundo da div*/
+    background-color: rgb(186, 187, 187);
+    width: 20% ;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px; /*Para deixar a borada arredondada*/
+}
+
+.textof{
+    padding-top: 4%;
+    padding-left: 1.7%;
+    padding-right: 1.7%;
+}
+
+            /* ***********Parte do Portfólio************ */
+
+.divp{
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    padding-top: 3%;
+    text-align: center;
+    width: 100% ;
+    margin: 0 auto;
+    
+    
+    
+      
+}
+
+.lip{
+    border-radius: 20px; /*Para deixar a borada arredondada*/
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(163, 163, 164, 0.644);
+    float: none;
+    padding-top: 130px;
+    margin: 10px;
+    margin-top: 0;
+    width: 700px;
+    height: 300px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.lip:hover{ border: solid #000403 1px;
+background-color: rgba(194, 191, 191, 0.611);}
+.ajuste{
+    padding: 0 auto;
+    padding-top: 15%;
+    text-align: center;
+    font: bold;
+    font-size: 1.1rem;
+    width: auto;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+.imgcontato{
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
